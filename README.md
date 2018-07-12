@@ -2,14 +2,14 @@
 Single page app for movie search by title
 
 # Build Setup
-- install dependencies
+-install dependencies
 
-npm install
+    npm install
 
-- serve with hot reload at localhost:8080
+-serve with hot reload at localhost:8080
 
-npm run serve
+    npm run serve
 
-- build for production with minification
+-build for production with minification
 
-npm run build
+    npm run build
