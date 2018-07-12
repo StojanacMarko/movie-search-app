@@ -31,7 +31,7 @@ export default {
   methods: {
     searchMovies() {
       
-      this.$http.get('http://www.omdbapi.com/?s=' + this.searchText + '&apikey=da3367ce').then(response => {
+      this.$http.get('http://www.omdbapi.com/?s=' + this.searchText.trim() + '&apikey=da3367ce').then(response => {
         
       this.movieResults = response.body.Search;
       //console.log(this.movieResults);
