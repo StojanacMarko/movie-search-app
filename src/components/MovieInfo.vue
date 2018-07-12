@@ -35,7 +35,7 @@ export default {
       this.$http.get('http://www.omdbapi.com/?i=' + this.id + '&apikey=da3367ce').then(response => {
         
         this.movie = response.body;
-        console.log(this.movie);
+        //console.log(this.movie);
 
       });
   }
