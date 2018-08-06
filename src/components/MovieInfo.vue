@@ -61,6 +61,7 @@ export default {
         box-shadow: 0 4px 8px 0 
         rgba(247, 232, 96, 0.5) ,0 6px 20px 0 
         rgba(247, 232, 96, 0.5);
+        border-bottom: 7px solid #f7e860;
     }
 
     #grid-item-1 {
