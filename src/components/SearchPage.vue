@@ -106,6 +106,7 @@ rgba(247, 232, 96, 0.3)
 ;
 transition: transform 500ms ease-out,
             box-shadow 500ms ease-out;
+border-bottom: 7px solid #f7e860;
 }
 
 #flex-container li:hover {
